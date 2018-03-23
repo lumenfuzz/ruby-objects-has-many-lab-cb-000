@@ -18,4 +18,8 @@ class Author
     post.author = @name
   end
 
+  def self.post_count
+    return @@post_count
+  end
+
 end
