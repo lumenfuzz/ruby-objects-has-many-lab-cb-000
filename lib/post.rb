@@ -7,7 +7,8 @@ class Post
   end
 
   def author_name
-    return @author
+    return @author.name if @author != nil
+    return nil
   end
 
 end
