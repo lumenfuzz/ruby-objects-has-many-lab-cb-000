@@ -19,5 +19,5 @@ class Artist
     song.artist = name
     @@song_count += 1
   end
-  
-end 
+
+end
